@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+	background : blue;
+	width : 500px;
+ 	height : 500px;
+}
+@media screen and (orientation : portrait){
+	.container{
+		background : red;
+	}
+}
